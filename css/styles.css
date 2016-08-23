@@ -19,7 +19,7 @@ h1 {
   position: absolute;
 }
 
-div#container-sup {
+.container-sup {
   position: relative;
   border: 1px solid black;
   background-color: gray;
@@ -29,7 +29,7 @@ div#container-sup {
   margin: 10px;
 }
 
-div#container-title {
+.container-title {
   position: relative;
   float: right;
   width: 100px;
@@ -39,31 +39,31 @@ div#container-title {
   text-align: center;
 }
 
-div#container-title.t1 {
+.container-title#t1 {
   background-color: red;
 }
 
-div#container-title.t2 {
+.container-title#t2 {
   background-color: green;
 }
 
-div#container-title.t3 {
+.container-title#t3 {
   background-color: blue;
 }
 
-div#container-text {
+.container-text {
   position: relative;
   clear: right;
   text-align: left;
 }
 
-div#container-title p1 {
+.container-title p {
   font-family: Helvetica;
   font-size: 125%;
   color: white; 
 }
 
-div#container-text p1 {
+.container-text p {
   font-family: Helvetica;
   font-size: 100%;
   color: black;
